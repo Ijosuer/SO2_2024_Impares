@@ -1,0 +1,14 @@
+// Primer paso
+make
+
+// Comando para montar el Modulo
+sudo insmod Modulo1.ko
+
+// Comando para vericiar el Modulo
+lsmod | grep Modulo1
+
+// Comando para ver info del Modulo
+modinfo Modulo1.ko
+
+// Comando para ver diagnostic messages
+sudo dmesg | tail

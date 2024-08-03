@@ -1,0 +1,20 @@
+// Primer paso
+make
+
+// Comando para montar el Modulo
+sudo insmod Modulo2.ko
+
+// Comando para vericiar el Modulo
+lsmod | grep Modulo2
+
+// Comando para ver info del Modulo
+modinfo Modulo2.ko
+
+// Comando para ver diagnostic messages
+sudo dmesg | tail
+
+// Comando para ver leer el archivo
+cat /proc/sopes2_clase3 
+
+// Comando para ver modificar el valor del archivo
+echo "NEW MESSAGE" > /proc/sopes2_clase3 
